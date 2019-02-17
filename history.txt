@@ -1,0 +1,34 @@
+    1  ls -al
+    2  cd .git
+    3  ls -al
+    4  cd ..
+    5  git config -l
+    6  git add .
+    7  git commit -m "edits"
+    8  git config --global user.email "profmgtest@gmail.com"
+    9  git config --global user.name "profmgtest"
+   10  git commit -m "edits"
+   11  git push origin master
+   12  reload
+   13  refresh
+   14  git commit -m "edits2"
+   15  git add .
+   16  git commit -m "edits2"
+   17  git push origin master
+   18  cd .git
+   19  ls
+   20  ls -al
+   21  cd config
+   22  cd ..
+   23  cd ..
+   24  ls -al
+   25  cp .dockerenv app/.docker
+   26  refresh
+   27  git config -l
+   28  cp /etc/gitignore-global /app/.gig
+   29  refresh
+   30  history
+   31  history > history.txt
+   32  pwd
+   33  cd app
+   34  history > history.txt
